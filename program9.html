@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sort a string in alphabetical order</title>
+</head>
+<body>
+	<script type = "text/javascript">
+		var S=prompt("Please enter the string", "");
+		function Sort(S)
+		{
+			var arr = S.split('');
+			var sorted = arr.sort();
+			return sorted.join('');
+		}
+		var str=Sort(S);
+		document.write(str);
+	</script>
+	<noscript>
+		you need to activate js.
+	</noscript>
+</body>
+</html>
